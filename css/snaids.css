@@ -1,0 +1,164 @@
+body {
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+        background-image:url('../img/fundo.png');
+        background-repeat:repeat-x;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	text-align:center;
+}
+.menu {font: 11px Verdana, Arial, Helvetica, sans-serif;}
+#resultado {
+    font: 11px Verdana, Arial, Helvetica, sans-serif;
+    text-align:center;
+    padding: 10px 5px 5px 5px;
+
+}
+ul, ol, dl {
+        font: 16px Verdana, Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+a img {
+	border: none;
+}
+a:link {
+	color: #42413C;
+	text-decoration: underline;
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+.container {
+	width: 80%;
+	background: #FFF;
+	margin: 0 auto;
+}
+
+.content {
+	text-align:center;
+	padding: 10px 5px;
+}
+
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+LABEL {
+	width:100px;
+	text-align:right;
+}
+
+.search {
+	background:#FFFFFF url(../img/search.png) no-repeat 4px 4px;
+	padding:4px 4px 4px 22px;
+        font-weight: bold;
+        font-size:14px ;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+	border:1px solid #CCCCCC;
+	width:280px;
+	height:20px;
+}
+.login {
+        background: url(../img/back_login.gif) no-repeat;
+	width:315px;
+	height:180px;
+	padding: 25px 0;
+        margin: 0 auto;
+
+}
+.formLogin {
+    background-color: #F6FAFD;
+    border: 1px solid #6399B6;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    width: 154px;
+    height: 20px;
+}
+
+.rodape{
+    float:none;
+    background-color: #FFF;
+    border-top: 1px solid #CCC;
+    padding:15px 4px 4px 22px;
+    text-align:left;
+}
+
+/*  menu */
+ul#minitabs{list-style: none;margin: 0;padding: 7px 0;
+  border-bottom: 1px solid #CCC;font-weight: bold;
+  text-align: center;white-space: nowrap}
+ul#minitabs li{display: inline;margin: 0 3px}
+ul#minitabs a{text-decoration: none;padding: 0 0 3px;
+  border-bottom: 4px solid #FFF;color: #999}
+ul#minitabs a#current{border-color: #F60;color:#000}
+ul#minitabs a:hover{border-color: #F60;color: #666}
+
+.destaque{background:#FFFF99;color:#FF0000;}
+#admin {
+    float:none;
+    text-align: center;
+    padding:15px 4px 4px 22px;
+    background-color: #F6FAFD;
+    border: 1px solid #6399B6;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    width: 380px;
+    margin: 0 auto
+}
+#cadusu {
+    float:none;
+    text-align: right;
+    padding:15px 54px 4px 5px;
+    background-color: #F6FAFD;
+    border: 1px solid #6399B6;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    width: 500px;
+    margin: 0 auto
+}
+
+ul#pags{font-family: verdana;font-size: 12px; list-style: none;margin: 0;padding: 5px 0;
+  text-align: center;white-space: nowrap}
+ul#pags li{display: inline;margin: 0 3px}
+ul#pags a{text-decoration: none;padding: 0 0 3px;
+  border-bottom: 4px solid #FFF;color: #999}
+ul#pags a#current{border-color: #F60;color:#000}
+ul#pags a:hover{border-color: #F60;color: #666}
+
+#msgUpload{
+float:none;
+    text-align: center;
+    padding:15px 0px 4px 5px;
+    background-color: #F6FAFD;
+    border: 1px solid #6399B6;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    width: 500px;
+    margin: 0 auto;
+    display:none
+}
